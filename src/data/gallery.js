@@ -62,6 +62,8 @@ export const galleryCategories = [
       "/images/gallery/favorites/2.jpeg",
       "/images/gallery/favorites/3.jpeg",
       "/images/gallery/favorites/4.jpeg",
+       "/images/gallery/favorites/5.jpeg",
+    "/images/gallery/favorites/6.jpeg",
     ],
   },
   {
