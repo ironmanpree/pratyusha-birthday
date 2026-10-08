@@ -67,7 +67,7 @@ export default function Intro() {
       <audio
         id="background-music"
         ref={audioRef}
-        src="/audio/background-music.mpeg"
+        src="/audio/background-music.mp3"
         loop
         preload="auto"
       />
