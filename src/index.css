@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+/* ============================================
+   DESIGN TOKENS — Our single source of truth
+   ============================================ */
+@theme {
+  /* ---------- TYPOGRAPHY ---------- */
+  --font-display: "Playfair Display", serif;
+  --font-body: "Poppins", sans-serif;
+  --font-handwritten: "Great Vibes", cursive;
+
+  /* ---------- COLOR PALETTE ---------- */
+  /* Primary: Romantic Rose */
+  --color-primary-50: #fff1f4;
+  --color-primary-100: #ffe0e7;
+  --color-primary-300: #ffa8bf;
+  --color-primary-500: #ff5d8f;
+  --color-primary-600: #f43f6f;
+  --color-primary-700: #d92559;
+
+  /* Secondary: Warm Gold */
+  --color-secondary-300: #f6d78c;
+  --color-secondary-500: #e8b84b;
+  --color-secondary-700: #c8912b;
+
+  /* Accent: Deep Plum (for dark cinematic sections) */
+  --color-accent-500: #6b2d5c;
+  --color-accent-700: #3d1a35;
+
+  /* Neutrals */
+  --color-cream: #fff8f3;
+  --color-charcoal: #1a1420;
+
+  /* ---------- BORDER RADIUS ---------- */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+
+  /* ---------- SHADOWS ---------- */
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-deep: 0 12px 40px rgba(0, 0, 0, 0.18);
+  --shadow-glow: 0 0 30px rgba(255, 93, 143, 0.45);
+
+  /* ---------- ANIMATION DURATIONS ---------- */
+  --duration-fast: 200ms;
+  --duration-base: 400ms;
+  --duration-slow: 800ms;
+  --duration-cinematic: 1400ms;
+
+  /* ---------- BREAKPOINTS ---------- */
+  --breakpoint-xs: 400px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+}
+
+/* ============================================
+   GLOBAL BASE STYLES
+   ============================================ */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+/* ============================================
+   PAPER TEXTURE (used by the love letter)
+   ============================================ */
+.paper-texture {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+}
+
+/* ============================================
+   GLASSMORPHISM STYLE
+   ============================================ */
+.glass {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.glass-dark {
+  background: rgba(26, 20, 32, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================
+   BUTTON VARIANTS
+   ============================================ */
+.btn-primary {
+  background: linear-gradient(135deg, var(--color-primary-500), var(--color-secondary-500));
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  box-shadow: var(--shadow-glow);
+  transition: transform var(--duration-fast) ease, box-shadow var(--duration-fast) ease;
+}
+.btn-primary:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-primary-600);
+  padding: 0.75rem 2rem;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--color-primary-500);
+  font-weight: 600;
+  transition: background var(--duration-fast) ease, color var(--duration-fast) ease;
+}
+.btn-secondary:hover {
+  background: var(--color-primary-500);
+  color: white;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-charcoal);
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: border-color var(--duration-fast) ease;
+}
+.btn-ghost:hover {
+  border-color: var(--color-primary-500);
+}
+
+/* ============================================
+   CARD VARIANTS
+   ============================================ */
+.card-elevated {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: 1.5rem;
+  transition: box-shadow var(--duration-base) ease, transform var(--duration-base) ease;
+}
+.card-elevated:hover {
+  box-shadow: var(--shadow-deep);
+  transform: translateY(-4px);
+}
+
+.card-glass {
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+.card-glass, .glass {
+  border-radius: var(--radius-lg);
+}
+
+.card-photo {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+
+/* ============================================
+   BACKGROUND GRADIENTS
+   ============================================ */
+.bg-gradient-romantic {
+  background: linear-gradient(135deg, var(--color-primary-300), var(--color-secondary-300));
+}
+
+.bg-gradient-sunset {
+  background: linear-gradient(135deg, var(--color-primary-500), var(--color-accent-500));
+}
+
+.bg-gradient-night {
+  background: linear-gradient(180deg, var(--color-charcoal), var(--color-accent-700));
+}

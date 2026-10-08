@@ -1,0 +1,80 @@
+export const timelineEvents = [
+  {
+    id: 1,
+    date: "15 Nov 2025",
+    title: "Bowling",
+    description: "best day as friends",
+  },
+  {
+    id: 2,
+    date: "16 Jan 2026",
+    title: "FNF Arena, Mairu Bistro",
+    description: "best day of my life as single",
+  },
+  {
+    id: 3,
+    date: "2 Feb 2026",
+    title: "Anniversary",
+    description: "THE BEST DAY WHICH CHANGED MY LIFE FOREVER",
+  },
+  {
+    id: 4,
+    date: "14 Feb 2026",
+    title: "Ironhill Cafe",
+    description: "first date with my wife",
+  },
+  {
+    id: 5,
+    date: "28 Feb 2026",
+    title: "Movie, Echoes Cafe, Gandipet Lake, OTC",
+    description: "date filled with kisses",
+  },
+  {
+    id: 6,
+    date: "2 Apr 2026",
+    title: "Skyline Brew Co.",
+    description: "cute date teasing each other",
+  },
+  {
+    id: 7,
+    date: "2 May 2026",
+    title: "Bakelore, Milano",
+    description: "shorttt date with my cute sa wifey",
+  },
+  {
+    id: 8,
+    date: "13 May 2026",
+    title: "Jagannath Temple, TTD, Peddamma Talli Temple",
+    description: "100 days wifeyyy",
+  },
+  {
+    id: 9,
+    date: "30 Jul 2026",
+    title: "Lakeshore Mall",
+    description: "Spider-Man: Brand New Day movie",
+  },
+  {
+    id: 10,
+    date: "1 Aug 2026",
+    title: "Rameshwaram Cafe, Mykos Cafe, Church Street",
+    description: "girlfriends day",
+  },
+  {
+    id: 11,
+    date: "2 Aug 2026",
+    title: "Coorg",
+    description: "first trip babeh",
+  },
+  {
+    id: 12,
+    date: "3 Aug 2026",
+    title: "Coorg",
+    description: "every small thing we do is a memory baby",
+  },
+    {
+    id: 13,
+    date: "25 Sep 2026",
+    title: "Lonavala",
+    description: "second trip like in just 8months babe muah",
+  },
+];
