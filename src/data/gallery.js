@@ -13,7 +13,7 @@ export const galleryCategories = [
   },
   {
     id: "bowling",
-    label: "Bowling",
+    label: "Bowling/FNF",
     images: [
       "/images/gallery/bowling/1.jpeg",
       "/images/gallery/bowling/2.jpeg",
@@ -50,6 +50,8 @@ export const galleryCategories = [
       "/images/gallery/selfies/10.jpeg",
       "/images/gallery/selfies/11.jpeg",
       "/images/gallery/selfies/12.jpeg",
+      "/images/gallery/selfies/13.jpeg",
+      "/images/gallery/selfies/14.jpeg",
     ],
   },
   {

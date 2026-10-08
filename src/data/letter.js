@@ -6,11 +6,14 @@ export const letterLines = [
   "Whenever im with you i feel safe,loved,happy,complete baby, i wish this will never end babyyy",
   "I want us to be together for all of our lives baby i love you so fucking much , thank you for everything baby, thank you for staying when times were hard, thank you for loving me again and again baby",
   "Muahhhhhhhh baby ,i want to kiss you and hug you and fuck you all my life baby",
+  
   "Our Bengaluru-Coorg trip was the best trip of my life baby, i will never forget it babyyyyy",
   "I want us to have more and more trips i wanna travel the world with you babyyyyy, i want to make more and more memories with you babyyyyy",
   "I want to spend my whole life with you babyyyyy, i want to grow old with you babyyyyy, i want to be with you forever babyyyyy",
   "I want you in every moment of my life babyyyyy, i want to be with you in every moment of your life babyyyyy",
   "I want to study masters together with you babyyyyy, i want to do everything with you babyyyyy",
+  "Lets work hard and study and build our future together babyyyyy, lets make our dreams come true babyyyyy",
+  "Our Pune trip was filled with difficulties baby but thanks to you you kade everything special and memorable baby, we went on a second trip in just 8months babes isn't it crazyyy",
   
   "I need you forever babyyyyy,i cant live without you my wifeyyyy",
   "Thank you for being my wifeyyy, my babyyyyy, my darlingggg, my everythingggg, my lifeeeeee, my loveeeeee, my soulmateeeeee,  my best frienddddddd",
@@ -18,8 +21,11 @@ export const letterLines = [
   "I love you so much babyyyyy, i love you more than anything in this world babyyyyy, i love you more than my life babyyyyy, i love you more than my soul babyyyyy, i love you more than my heart babyyyyy, i love you more than my mind babyyyyy, i love you more than my body babyyyyy, i love you more than my everything babyyyyy",
   "I want to be with you forever babyyyyy, i want to be with you in every moment of our lives babyyyyy, i want to be with you in every moment of our souls babyyyyy, i want to be with you in every moment of our hearts babyyyyy, i want to be with you in every moment of our minds babyyyyy, i want to be with you in every moment of our bodies babyyyyy",
   "I want to be with you forever and ever and ever and ever and ever babyyyyy, i want to be with you in every moment of our lives and souls and hearts and minds and bodies babyyyyy",
+  
   "Forever yours,Shashi Preetham",
   "HAPPIEST BIRTHDAY ONCE AGAIN MY WIFEYYY I HOPE YOU LIKE THIS WEBSITE AND I HOPE YOULL LOVE ME ALWAYS BABYYYYY ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+  "(i have a surprise for you after this letter babes, i know babes you don't like surprises and my gifts 🥺🥺 but yea baby i made it from the bottom of my heart babes)",
   "😘😘😘😘🥰🥰🥰🥰😍😍😍😍💘💘💘💘💌💌💌💌💝💝💝💝💖💖💖💖",
+  "(i know babes i couldn't give you what you wanted for your birthday babes but i promise you baby i will give you everything you want in our life together babbyy but for now ee website tho adjust avvu babes im cholly🥺🥺🥺)",
   "MUAHHHHHHHHHHHHHHH BABYYYYYYYYYY",
 ];
