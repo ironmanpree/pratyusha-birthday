@@ -41,7 +41,7 @@ export default function Chapter1() {
           className="w-64 h-80 md:w-80 md:h-96 rounded-[var(--radius-xl)] overflow-hidden shadow-deep border-4 border-white"
         >
           <img
-            src="/src/assets/images/pratyusha-portrait.jpeg"
+            src="/images/pratyusha-portrait.jpeg"
             alt="Pratyusha"
             className="w-full h-full object-cover"
           />
